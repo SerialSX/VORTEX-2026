@@ -1,0 +1,25 @@
+# Pastas geradas automaticamente pelo Unity
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+MemoryCaptures/
+
+# Arquivos do Visual Studio / Rider
+.vs/
+.idea/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# Build específico WebGL (opcional, se quiser versionar builds separadamente depois)
+/Builds/WebGL/
+
+# Arquivos do SO
+.DS_Store
+Thumbs.db
