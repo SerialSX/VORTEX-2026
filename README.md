@@ -49,7 +49,7 @@ Protótipo funcional de navegador panorâmico interativo em 360°, desenvolvido 
 
 ## Diário de Bordo — Uso de Inteligência Artificial
 
-> Nota de contexto: comecei este desafio com **zero experiência prévia em Unity e C#**. A ferramenta de IA foi usada como apoio para aprender a engine e debugar problemas em tempo real — não para gerar uma solução pronta sem entendimento.
+> Nota de contexto: comecei este desafio com quase **zero experiência prévia em Unity e C#**. A ferramenta de IA foi usada como apoio para explicar sobre a engine, ajudar na criação de projetos para aprendizado e debugar problemas em tempo real — não para gerar uma solução pronta sem entendimento.
 
 ### Ferramenta utilizada
 
@@ -88,12 +88,17 @@ Nenhuma sugestão de código ou configuração foi considerada "correta" apenas 
 
 ### Reflexão crítica
 
-[Espaço para você escrever pessoalmente — sugestão de pontos a cobrir:]
-- O que mudou na forma de usar a IA do início pro fim do desafio (ex: de "não entender o problema" para "debugar com vocabulário técnico próprio")
-- Onde a IA acelerou o processo vs. onde exigiu mais cuidado/verificação da sua parte
-- Algum momento em que uma sugestão da IA precisou ser ajustada ou rejeitada
-- Como isso mudou (ou não) sua visão sobre usar IA em projetos futuros de jogos
+1. O que mudou do início pro fim?
+   No momento que eu comecei a utilizar a Unity, eu tentei me familiarizar (Apesar de já ter utilizado o Godot Engine). Alguns conceitos foram fáceis de compreender, como "Anchor", a conexão entre imagens, mais por serem nomes e métodos parecidos com os que uso tanto no Godot, como até mesmo em alguns softwares de edição de vídeo. Mas tinha coisas que eu não fazia ideia, por falta de pratica e de nunca ter tentado usar a fundo a Unity. Entretanto, conforme o tempo foi passando, eu fui tirando algumas duvidas com a IA, fazendo alguns projetos pequenos pra treinar antes de eu fazer o protótipo verdadeiramente funcional para o Vortex-2026, aos poucos, as coisas foram ficando mais automáticas para mim, como erros pequenos que eu já corrigi-o sem nem perceber, como matérias colocados incorretamente em objetos não necessários, ou problemas com scripts que, muitas vezes, eram por causa de confusão na escrita (Nomes de variáveis ou virgulas má colocadas.).
 
+2. Onde a IA acelerou vs. onde exigiu cuidado meu:
+   Alguns scripts que fiz vieram com erros que não achava. Em momentos como esse eu enviava para a IA, perguntando se era algum problema de conflito ou de propriedades. Porém, algumas vezes ela mandava um script totalmente novo CHEIO de conflitos e variáveis ou scripts duplicados, sendo uma das tentativas um código completo com 11 erros de compilação. Eu voltei reescrevendo o código como estava antes chequei os erros dados, dei uma pesquisada e testei com outras formas mais simples, e uma delas funcionou.
+
+3. Sugestão que precisou ser ajustada ou rejeitada:
+   Tive varias ideias para serem implementadas neste projeto, como a capacidade de seguir para mais de uma direção ou até mesmo ir para uma destinada localização, porém com o tempo curto, a necessidade de um banco, e os requisitos que verifiquei no PDF proposto para o desafio, decidi deixar isso de lado e focar somente no necessário, ainda dando tempo de adicionar sons, e também um leve "Fade", nas transições entre imagens. Teve também ajustes contínuos para verificar localizações e posicionamento dos botões (O próprio fato de ter 3 formas de se movimentar, sendo "W" e "S", seta pra cima ou pra baixo, e os mesmos botões "Avançar" e "Voltar".)
+
+4. Isso mudou minha visão sobre IA em projetos futuros?
+   Sim e Não. Tive seis dias para fazer este projeto porque que só vim descobrir sobre ele um tempo depois de receber ele pelo Unifor Mobile dia 30 de julho. Acabei checando somente dia 2 de Agosto. Acredito sim que se tivesse mais tempo, eu teria feito bem mais coisa. Mas falando sobre o uso de IA, eu provavelmente utilizaria ela de forma mais "Técnica", para checagem de códigos, verificação de possíveis conflitos futuros, principalmente numa época onde a IA está constantemente crescendo, e a forma de utilizar ela DEVE ser explicada e categorizada como Assistente de Programação. Ela, apesar de capaz, não é melhor utilizada quando usada para gerar um código do zero, mas sim para otimizar o tempo para coisas pequenas no código ou, como disse anteriormente, para verificação geral no código ou tirar duvidas sobre algo muito especifico.
 ---
 
 ## Estrutura de causa e efeito (decisões técnicas)
@@ -118,4 +123,4 @@ Local: Av. Domingos Olímpio, Fortaleza — trajeto reto, em direção ao centro
 ## Créditos e ferramentas de terceiros
 
 - Imagens panorâmicas obtidas via [Street View Download 360](https://svd360.istreetview.com/)
-- Efeito sonoro de transição: [preencher fonte/licença do arquivo `.wav` usado, ex: Freesound.org, CC0]
+- Efeito sonoro de transição: Freesound.org
